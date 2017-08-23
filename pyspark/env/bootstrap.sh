@@ -7,7 +7,7 @@ echo 'export JAVA_HOME=/usr/lib/jvm/jre' >> /etc/profile.d/java.sh
 echo 'export PATH=/usr/lib/jvm/jre/bin:$PATH' >> /etc/profile.d/java.sh
 
 # sshkey
-sudo ssh-keygen -t rsa
+sudo ssh-keygen -t rsa -f ~/.ssh/id_rsa
 
 ## hadoop 
 tar xzf /vagrant/files/hadoop-2.8.1.tar.gz
