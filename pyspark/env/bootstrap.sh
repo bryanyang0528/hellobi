@@ -1,7 +1,8 @@
 sudo yum -y update
 sudo yum -y upgrade
-sudo yum install -y java-1.8.0-openjdk net-tools rsync mlocate wget vim
-
+sudo yum groupinstall -y development
+sudo yum install -y java-1.8.0-openjdk net-tools rsync mlocate wget vim \
+	gcc zlib-dev openssl-devel sqlite-devel bzip2-devel python-devel
 # set Java
 echo 'export JAVA_HOME=/usr/lib/jvm/jre' >> /etc/profile.d/java.sh
 echo 'export PATH=/usr/lib/jvm/jre/bin:$PATH' >> /etc/profile.d/java.sh
