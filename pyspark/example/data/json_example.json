@@ -1,0 +1,4 @@
+{"userid": '1', "rating": 4, "movieid": '001'}
+{"userid": '1', "rating": 3, "movieid": '002'}
+{"userid": '2', "movieid": '001', "rating": 4}
+{"userid": '2', "movieid": '003', "rating": 2}
